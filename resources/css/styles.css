@@ -1,0 +1,87 @@
+/* General Styles */
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar Styles */
+.navbar {
+    display: flex;
+    background-color: #da4450;
+    width: 100%;
+    height: 7rem;
+    justify-content: space-between;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+}
+
+.navbar img {
+    height: 100%;
+    width: auto;
+}
+
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    margin: auto 2rem;
+    background: linear-gradient(to bottom left, #ffaa5a, #b3773f);
+    border-radius: 7px;
+    padding: 0.5rem 1rem;
+    box-shadow: 4px 4px 4px rgb(100, 96, 96);
+}
+
+.navbar ul li a:hover {
+    color: #ffffff90;
+    background: linear-gradient(to bottom left, #ffaa5a90, #b3773f90);
+}
+
+.navbar ul li a:active {
+    box-shadow: 2px 2px 4px rgb(100, 96, 96);
+    background: linear-gradient(to bottom left, #b3773f, #ffaa5a);
+}
+
+/* Hero Section Styles */
+#hero {
+    height: 43.75rem;
+    background-image: url(../images/barn.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 4rem 2rem;
+    border: 5px solid black;
+    border-radius: .5rem;
+}
+
+#hero h1 {
+    font-size: 4rem;
+    background-color: rgba(234, 234, 234, 0.578);
+    border-radius: .50rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+#hero h2 {
+    font-size: 3rem;
+    background-color: rgba(234, 234, 234, 0.578);
+    border-radius: .50rem;
+    padding: 1rem;
+}
+
