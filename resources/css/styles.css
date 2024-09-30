@@ -19,6 +19,7 @@ body {
     position: sticky;
     top: 0;
     border-bottom: 1px solid black;
+    z-index: 1000;
 }
 
 .navbar img {
@@ -67,7 +68,6 @@ body {
     justify-content: center;
     flex-direction: column;
     margin: 4rem 2rem;
-    border: 5px solid black;
     border-radius: .5rem;
 }
 
@@ -86,3 +86,65 @@ body {
     padding: 1rem;
 }
 
+/* Category Section Styles */
+
+#categories {
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+    margin: 5rem 2rem;
+    flex-direction: column;
+}
+
+#categories .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#categories h2 {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+    background-color: #f45b6950;
+    text-align: center;
+    border-radius: 0;
+    padding: .50rem;
+    width: 75%;
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    border-bottom: #000000 1.5px solid;
+}
+
+#categories .category img {
+    width: 80%;
+    height: 70%;
+    border-radius: .5rem .5rem 0 0;
+}
+
+#categories .category h3 {
+    font-size: 2rem;
+    text-align: center;
+    border-bottom: #000000 1.5px solid;
+}
+
+#categories .category {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30rem;
+    height: 30rem;
+    background: linear-gradient(to bottom left, #ffaa5a, #b3773f);
+    border-radius: .5rem;
+    box-shadow: 4px 4px 4px rgb(100, 96, 96);
+    margin: 1rem;
+    padding: 1rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#categories .category:hover {
+    box-shadow: 2px 2px 4px rgb(100, 96, 96);
+    cursor: pointer;
+    transform: translateY(-5px);
+}
