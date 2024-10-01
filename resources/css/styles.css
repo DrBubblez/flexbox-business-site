@@ -73,7 +73,7 @@ body {
 
 #hero h1 {
     font-size: 4rem;
-    background-color: rgba(234, 234, 234, 0.578);
+    background-color: #f45b6970;
     border-radius: .50rem;
     text-align: center;
     padding: 1rem;
@@ -81,7 +81,7 @@ body {
 
 #hero h2 {
     font-size: 3rem;
-    background-color: rgba(234, 234, 234, 0.578);
+    background-color: #f45b6970;
     border-radius: .50rem;
     padding: 1rem;
 }
