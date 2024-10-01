@@ -43,11 +43,14 @@ body {
     border-radius: 7px;
     padding: 0.5rem 1rem;
     box-shadow: 4px 4px 4px rgb(100, 96, 96);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .navbar ul li a:hover {
     color: #ffffff90;
-    background: linear-gradient(to bottom left, #ffaa5a90, #b3773f90);
+    box-shadow: 2px 2px 4px rgb(100, 96, 96);
+    transform: translateY(-5px);
+    cursor: pointer;
 }
 
 .navbar ul li a:active {
