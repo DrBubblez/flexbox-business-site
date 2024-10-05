@@ -209,3 +209,63 @@ body {
     border-radius: .5rem;
     box-shadow: 4px 4px 4px rgb(100, 96, 96);
 }
+
+/* Employee Section Styles */
+#team {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin: 7rem 2rem 5rem 2rem;
+}
+
+#team h2 {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+    background-color: #f45b6950;
+    text-align: center;
+    border-radius: 0;
+    padding: .50rem;
+    width: 75%;
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    border-bottom: #000000 1.5px solid;
+}
+
+#team .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#team .employee {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:  30%;
+    height: 40%;
+    margin: 1rem;
+}
+
+#team img {
+    width: 50%;
+    height: 70%;
+    border-radius: .5rem;
+    margin: 1rem;
+    border: 1rem solid #f45b6950;
+}
+
+#team h3 {
+    font-size: rem;
+    margin: 1rem 0;
+    text-align: center;
+    border-radius: 0;
+    padding: .50rem;
+    width: 70%;
+    letter-spacing: 0.1rem;
+    border-bottom: #000000 1.5px solid;
+}
