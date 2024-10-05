@@ -269,3 +269,20 @@ body {
     letter-spacing: 0.1rem;
     border-bottom: #000000 1.5px solid;
 }
+
+/* Footer Section Styles */
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #da4450;
+    height: 7rem;
+    border-top: 1px solid black;
+}
+
+footer p {
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    margin: 1rem;
+}
