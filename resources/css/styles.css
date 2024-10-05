@@ -76,17 +76,17 @@ body {
 
 #hero h1 {
     font-size: 4rem;
-    background-color: #f45b6970;
+    background-color: #c7c5c570;
     border-radius: .50rem;
     text-align: center;
-    padding: 1rem;
+    padding: .25rem;
 }
 
 #hero h2 {
     font-size: 3rem;
-    background-color: #f45b6970;
+    background-color: #c7c5c570;
     border-radius: .50rem;
-    padding: 1rem;
+    padding: .25rem;
 }
 
 /* Category Section Styles */
