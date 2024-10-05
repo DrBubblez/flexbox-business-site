@@ -8,6 +8,15 @@ body {
     padding: 0;
 }
 
+h1, h2, h3 {
+    font-family: "Protest Strike", sans-serif;
+    letter-spacing: 0.2rem;
+}
+
+p , a {
+    font-family: "Barlow Condensed", sans-serif;
+}
+
 /* Navigation Bar Styles */
 .navbar {
     display: flex;
