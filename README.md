@@ -6,7 +6,9 @@
 - [License](#license)
 - [Contact](#contact)
 
-<img src="" alt="Bargain Barn Site" height="" width="">
+<img src="./resources/images/BB-screenshot.png" alt="Bargain Barn Site" height="auto" width="700px">
+
+[Click Me](https://drbubblez.github.io/flexbox-business-site/) to view the site.
 
 ## Description
 
